@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image, Hyperlink and Nested Table</title>
+</head>
+<body>
+
+    <h1 align="center">Student Information Page</h1>
+
+    <!-- Image -->
+    <h2>College Image</h2>
+    <img src="college.jpg" alt="College Image" width="300" height="200">
+
+    <!-- Hyperlink -->
+    <h2>Visit College Website</h2>
+    <a href="https://www.dypvp.edu.in/" target="_blank">
+        Dr. D. Y. Patil Institute of Technology Website
+    </a>
+
+    <!-- Nested Table -->
+    <h2>Student Information</h2>
+
+    <table border="2" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Student Details</th>
+        </tr>
+        <tr>
+            <td>
+                <!-- Nested Table -->
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <tr>
+                        <th>Name</th>
+                        <th>Roll No</th>
+                        <th>Class</th>
+                        <th>Branch</th>
+                    </tr>
+                    <tr>
+                        <td>Yash Dhame</td>
+                        <td>SCOC58</td>
+                        <td>SE-C</td>
+                        <td>Computer Engineering</td>
+                    </tr>
+                    <tr>
+                        <td>Rahul Patil</td>
+                        <td>SCOC59</td>
+                        <td>SE-C</td>
+                        <td>Computer Engineering</td>
+                    </tr>
+                    <tr>
+                        <td>Priya Sharma</td>
+                        <td>SCOC60</td>
+                        <td>SE-C</td>
+                        <td>Computer Engineering</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
