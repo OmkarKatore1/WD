@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Array Example</title>
+</head>
+<body>
+
+    <h2>Displaying Array Elements using Loops</h2>
+
+    <?php
+    // Store multiple values in an array
+    $fruits = array("Apple", "Banana", "Mango", "Orange", "Grapes");
+
+    echo "<h3>Using For Loop:</h3>";
+
+    // Display array elements using for loop
+    for ($i = 0; $i < count($fruits); $i++) {
+        echo $fruits[$i] . "<br>";
+    }
+
+    echo "<h3>Using Foreach Loop:</h3>";
+
+    // Display array elements using foreach loop
+    foreach ($fruits as $fruit) {
+        echo $fruit . "<br>";
+    }
+    ?>
+
+</body>
+</html>
