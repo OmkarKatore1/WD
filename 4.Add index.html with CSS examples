@@ -1,0 +1,71 @@
+/* style.css */
+body {
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
+}
+
+
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Types Example</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        p {
+            color: blue;
+            font-size: 18px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Inline CSS -->
+    <h1 style="color: red; text-align: center;">
+        CSS Example: Inline, Internal and External
+    </h1>
+
+    <p>
+        This paragraph is styled using internal CSS.
+    </p>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Yash</td>
+            <td>SE-C</td>
+            <td>Pune</td>
+        </tr>
+        <tr>
+            <td>Rahul</td>
+            <td>SE-C</td>
+            <td>Mumbai</td>
+        </tr>
+    </table>
+
+</body>
+</html>
