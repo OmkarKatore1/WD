@@ -1,0 +1,10 @@
+<?php
+// Set timezone to India
+date_default_timezone_set("Asia/Kolkata");
+
+// Display welcome message
+echo "<h1>Welcome to PHP Programming!</h1>";
+
+// Display current date and time
+echo "<p>Current Date and Time: " . date("d-m-Y h:i:s A") . "</p>";
+?>
