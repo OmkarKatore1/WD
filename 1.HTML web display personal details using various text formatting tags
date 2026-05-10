@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details</title>
+</head>
+<body>
+
+    <h1><u>My Personal Details</u></h1>
+
+    <p><b>Name:</b> Yash Hanumant Dhame</p>
+    <p><i>Class:</i> SE Computer Engineering</p>
+    <p><u>College:</u> Dr. D. Y. Patil Institute of Technology, Pimpri</p>
+    <p><strong>University:</strong> Savitribai Phule Pune University</p>
+    <p><em>City:</em> Pune</p>
+    <p><mark>State:</mark> Maharashtra</p>
+    <p><small>Email:</small> yashdhame@example.com</p>
+    <p>Water Formula: H<sub>2</sub>O</p>
+    <p>Einstein Formula: E = mc<sup>2</sup></p>
+    <p><del>Old Contact:</del> 9876543210</p>
+    <p><ins>New Contact:</ins> 9876543211</p>
+
+</body>
+</html>
